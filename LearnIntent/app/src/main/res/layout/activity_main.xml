@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <Button
+        android:onClick="pindahActivity"
+        android:id="@+id/btn_pindah_activity"
+        android:text="Pindah Activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="pindahAplikasiDgnData"
+        android:id="@+id/btn_pindah_aplikasi_data"
+        android:text="Pindah Aplikasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="pindahActivityDgnData"
+
+        android:id="@+id/btn_pindah_activity_data"
+        android:text="Pindah Activity dengan Data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
